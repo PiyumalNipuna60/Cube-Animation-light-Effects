@@ -169,6 +169,14 @@ main>section:nth-child(3){
     top: 88px;
 }
 
+.cube3 {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    transform-style: preserve-3d;
+    transform: rotateX(-30deg);
+    animation: animate2 4s linear infinite;
+}
 
 
 
