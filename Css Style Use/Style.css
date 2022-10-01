@@ -12,5 +12,10 @@ body{
     background: #050505;
 }
 
-
+.cube{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+}
 
