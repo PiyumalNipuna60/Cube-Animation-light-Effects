@@ -237,3 +237,16 @@ main>section:nth-child(3){
     0 0 200px rgba(255, 77, 65,0.8),
     0 0 200px rgba(255, 77, 65,0.1)
 }
+
+#btn{
+    background-color: black;
+    width: 12%;
+    height: 8%;
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    bottom: 27px;
+    right: 34px;
+    margin: auto;
+    border: 1px solid #330000;
+}
