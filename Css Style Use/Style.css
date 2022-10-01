@@ -1,21 +1,31 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
+
+main {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     background: #050505;
+    width: 99vw;
+    height: 98vh;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+main>section:nth-child(1){
+    position: absolute;
+    left: 45%;
+    top: 42%;
+    margin: auto;
 }
 
 .cube {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     transform-style: preserve-3d;
     transform: rotateX(-30deg);
     animation: animate 4s linear infinite;
@@ -27,7 +37,7 @@ body {
         transform: rotateX(-30deg) rotateY(0deg);
     }
     100% {
-        transform: rotateX(-30deg) rotateY(360deg);
+        transform: rotateX(-30deg) rotateY(-360deg);
     }
 }
 
@@ -77,4 +87,5 @@ body {
     0 0 400px rgba(0,255,0,0.8),
     0 0 500px rgba(0,255,0,0.1)
 }
+
 
