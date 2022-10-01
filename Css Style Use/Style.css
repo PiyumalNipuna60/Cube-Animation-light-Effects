@@ -17,8 +17,8 @@ main {
 
 main>section:nth-child(1){
     position: absolute;
-    left: 45%;
-    top: 42%;
+    left: 40%;
+    top: 44%;
     margin: auto;
 }
 
@@ -165,10 +165,9 @@ main>section:nth-child(2){
 /*-=====================================================*/
 main>section:nth-child(3){
     position: absolute;
-    left: 75px;
+    right: 75px;
     top: 88px;
 }
-
 
 
 
