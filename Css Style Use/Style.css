@@ -178,6 +178,16 @@ main>section:nth-child(3){
     animation: animate2 4s linear infinite;
 }
 
+@keyframes animate3 {
+
+    0% {
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
+
 
 
 
