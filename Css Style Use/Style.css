@@ -161,3 +161,18 @@ main>section:nth-child(2){
     0 0 500px rgba(0,255,0,0.1)
 }
 
+
+/*-=====================================================*/
+main>section:nth-child(3){
+    position: absolute;
+    left: 75px;
+    top: 88px;
+}
+
+
+
+
+
+
+
+
